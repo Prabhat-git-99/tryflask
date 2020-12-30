@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 clf = pkl.load(open('model/model.pkl', 'rb'))
 
-@app.route('/')
+@app.route('https://silly-williams-5e06af.netlify.app/')
 def hello_world():
     return 'Hello, There'
 
